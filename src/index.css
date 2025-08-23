@@ -6,9 +6,9 @@
 
 @layer base {
   :root {
-    /* Modern Clean Theme */
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark Theme */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
     
     /* Brand Colors */
     --crypto-primary: 221.2 83.2% 53.3%;
@@ -17,38 +17,38 @@
     --crypto-warning: 38 92% 50%;
     
     /* Trading Interface */
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --card-border: 214.3 31.8% 91.4%;
+    --card: 222.2 84% 8%;
+    --card-foreground: 210 40% 98%;
+    --card-border: 217.2 32.6% 17.5%;
     
     /* Primary Brand */
     --primary: 221.2 83.2% 53.3%;
     --primary-foreground: 210 40% 98%;
     
     /* Secondary */
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
     
     /* Muted */
-    --muted: 210 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
     
     /* Accent */
-    --accent: 210 40% 96%;
-    --accent-foreground: 222.2 84% 4.9%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
     
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
     
     /* Borders & Inputs */
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
     --ring: 221.2 83.2% 53.3%;
     
     /* Popover */
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222.2 84% 8%;
+    --popover-foreground: 210 40% 98%;
     
     --radius: 0.75rem;
     
