@@ -24,6 +24,12 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				crypto: {
+					primary: 'hsl(var(--crypto-primary))',
+					success: 'hsl(var(--crypto-success))',
+					danger: 'hsl(var(--crypto-danger))',
+					warning: 'hsl(var(--crypto-warning))',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
