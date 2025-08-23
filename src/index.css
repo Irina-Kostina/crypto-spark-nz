@@ -6,60 +6,60 @@
 
 @layer base {
   :root {
-    /* Crypto Dark Theme */
-    --background: 220 13% 8%;
-    --foreground: 210 40% 98%;
+    /* Modern Clean Theme */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
     
-    /* Crypto Brand Colors */
-    --crypto-primary: 45 100% 60%;
+    /* Brand Colors */
+    --crypto-primary: 221.2 83.2% 53.3%;
     --crypto-success: 142 76% 47%;
     --crypto-danger: 0 84% 60%;
     --crypto-warning: 38 92% 50%;
     
     /* Trading Interface */
-    --card: 220 13% 10%;
-    --card-foreground: 210 40% 98%;
-    --card-border: 220 13% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --card-border: 214.3 31.8% 91.4%;
     
     /* Primary Brand */
-    --primary: 45 100% 60%;
-    --primary-foreground: 220 13% 8%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
     
     /* Secondary */
-    --secondary: 220 13% 15%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
     
     /* Muted */
-    --muted: 220 13% 12%;
-    --muted-foreground: 215.4 16.3% 65%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
     
     /* Accent */
-    --accent: 142 76% 47%;
-    --accent-foreground: 220 13% 8%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
     
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
     
     /* Borders & Inputs */
-    --border: 220 13% 15%;
-    --input: 220 13% 12%;
-    --ring: 45 100% 60%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
     
     /* Popover */
-    --popover: 220 13% 10%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
     
     --radius: 0.75rem;
     
     /* Gradients */
-    --gradient-crypto: linear-gradient(135deg, hsl(var(--crypto-primary)), hsl(var(--crypto-warning)));
+    --gradient-crypto: linear-gradient(135deg, hsl(var(--crypto-primary)), hsl(221.2 83.2% 65%));
     --gradient-success: linear-gradient(135deg, hsl(var(--crypto-success)), hsl(142 76% 35%));
     --gradient-danger: linear-gradient(135deg, hsl(var(--crypto-danger)), hsl(0 84% 45%));
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --glow-crypto: 0 0 20px hsl(var(--crypto-primary) / 0.3);
+    --glow-crypto: 0 0 20px hsl(var(--crypto-primary) / 0.2);
   }
 }
 
