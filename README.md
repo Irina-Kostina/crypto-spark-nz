@@ -51,15 +51,16 @@ The implementation was then extended and customized for this project to give the
 
 ## 📂 Project Structure
 
+```plaintext
 src/
 ├─ components/
-│ ├─ HeroSection.tsx # Displays hero + top 3 cryptos
-│ ├─ ElectricBorder.tsx # Animated glowing border component
-│ ├─ ElectricBorder.css # Styling for ElectricBorder
-│ └─ ui/ # shadcn/ui components
+│  ├─ HeroSection.tsx      # Displays hero + top 3 cryptos
+│  ├─ ElectricBorder.tsx   # Animated glowing border component
+│  ├─ ElectricBorder.css   # Styling for ElectricBorder
+│  └─ ui/                  # shadcn/ui components
 ├─ hooks/
-│ └─ useCryptoData.ts # Custom hook to fetch CoinGecko API data
-├─ pages/ # Page-level components (if any)
-├─ App.tsx # Root component
-├─ main.tsx # Entry point
-└─ index.css # Global styles
+│  └─ useCryptoData.ts     # Custom hook to fetch CoinGecko API data
+├─ pages/                  # Page-level components (if any)
+├─ App.tsx                 # Root component
+├─ main.tsx                # Entry point
+└─ index.css               # Global styles
