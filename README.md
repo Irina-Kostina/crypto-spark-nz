@@ -1,8 +1,8 @@
-# Welcome to your Lovable project
+# Welcome to my Crypto Spark NZ project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/c20da979-4a2e-4fdf-a43b-92f57fbe61da
+This project was designed and implemented by me using Vite, React, TypeScript, Tailwind, and ShadCN. Repo originally scaffolded with Lovable.dev.
 
 ## How can I edit this code?
 
