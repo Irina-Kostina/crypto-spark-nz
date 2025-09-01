@@ -1,73 +1,65 @@
-# Welcome to my Crypto Spark NZ project
+# 💹 CryptoSpark NZ
 
-## Project info
+CryptoSpark NZ is a responsive web application for tracking the world’s most popular cryptocurrencies in real time, with all prices displayed in **New Zealand Dollars (NZD)**.  
 
-This project was designed and implemented by me using Vite, React, TypeScript, Tailwind, and ShadCN. Repo originally scaffolded with Lovable.dev.
+The app is built with **React, TypeScript, TailwindCSS, and shadcn/ui**, and features a clean, modern interface. It highlights the top three cryptocurrencies (Bitcoin, Ethereum, and Tether) in visually appealing cards with a custom **Electric Border animation** for a futuristic trading look.  
 
-## How can I edit this code?
+> ⚡ Repo originally scaffolded with **[Lovable.dev](https://lovable.dev/)**, then customized and extended with unique features, styling, and animations.  
+> ✨ Styling and animation design were enhanced with **AI-assisted support**.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c20da979-4a2e-4fdf-a43b-92f57fbe61da) and start prompting.
+- 📊 Real-time NZD prices for Bitcoin, Ethereum, and Tether  
+- 🔌 Live data fetched from the **[CoinGecko API](https://www.coingecko.com/)**  
+- 🔥 Animated glowing borders around crypto cards via a custom `ElectricBorder` component  
+- 📱 Fully responsive design for desktop, tablet, and mobile  
+- 🎨 Modern styling with **TailwindCSS** and **shadcn/ui**  
+- ⚡ Fast and lightweight thanks to **Vite + React**  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🔌 Data Source
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+CryptoSpark NZ does not include its own backend server.  
+Instead, it fetches live cryptocurrency market data directly from the **CoinGecko API** using a custom React hook (`useCryptoData.ts`).  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This approach keeps the app lightweight while still providing real-time NZD price updates.  
+Future improvements could include adding a Node.js/Express backend and database for features like user accounts, saved watchlists, and historical data.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🎨 Animation Inspiration
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The **Electric Border effect** was inspired by and adapted from a demo on **[ReactBits.dev](https://reactbits.dev/animations/electric-border)** — a site showcasing interactive React animation tutorials and code samples.  
 
-# Step 3: Install the necessary dependencies.
-npm i
+The implementation was then extended and customized for this project to give the crypto cards their glowing, animated frames.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🛠️ Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Frontend Framework:** [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)  
+- **Styling:** [TailwindCSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)  
+- **Icons:** [Lucide React](https://lucide.dev/)  
+- **Build Tool:** [Vite](https://vitejs.dev/)  
+- **Data Source:** [CoinGecko API](https://www.coingecko.com/)  
+- **Animations:** Custom SVG filter (`ElectricBorder` component) + CSS  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📂 Project Structure
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c20da979-4a2e-4fdf-a43b-92f57fbe61da) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+src/
+├─ components/
+│ ├─ HeroSection.tsx # Displays hero + top 3 cryptos
+│ ├─ ElectricBorder.tsx # Animated glowing border component
+│ ├─ ElectricBorder.css # Styling for ElectricBorder
+│ └─ ui/ # shadcn/ui components
+├─ hooks/
+│ └─ useCryptoData.ts # Custom hook to fetch CoinGecko API data
+├─ pages/ # Page-level components (if any)
+├─ App.tsx # Root component
+├─ main.tsx # Entry point
+└─ index.css # Global styles
