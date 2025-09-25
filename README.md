@@ -86,7 +86,7 @@ src/
 This project is **deployed on [Vercel](https://vercel.com/)**  
 for fast, reliable hosting with automatic builds from the GitHub repository.
 
-🔗 **Live Demo:** [https://cryptospark-nz.vercel.app](https://cryptospark-nz.vercel.app)
+**Live Demo:** [crypto-spark-nz.vercel.app](crypto-spark-nz.vercel.app)
 ---
 ## License
 
