@@ -64,7 +64,7 @@ src/
 ├─ App.tsx                 # Root component
 ├─ main.tsx                # Entry point
 └─ index.css               # Global styles
-
+```
 ---
 ### Installation
 
