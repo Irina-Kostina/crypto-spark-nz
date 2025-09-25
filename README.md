@@ -4,23 +4,23 @@ CryptoSpark NZ is a responsive web application for tracking the world’s most p
 
 The app is built with **React, TypeScript, TailwindCSS, and shadcn/ui**, and features a clean, modern interface. It highlights the top three cryptocurrencies (Bitcoin, Ethereum, and Tether) in visually appealing cards with a custom **Electric Border animation** for a futuristic trading look.  
 
-> ⚡ Repo originally scaffolded with **[Lovable.dev](https://lovable.dev/)**, then customized and extended with unique features, styling, and animations.  
-> ✨ Styling and animation design were enhanced with **AI-assisted support**.
+> Repo originally scaffolded with **[Lovable.dev](https://lovable.dev/)**, then customized and extended with unique features, styling, and animations.  
+> Styling and animation design were enhanced with **AI-assisted support**.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📊 Real-time NZD prices for Bitcoin, Ethereum, and Tether  
-- 🔌 Live data fetched from the **[CoinGecko API](https://www.coingecko.com/)**  
-- 🔥 Animated glowing borders around crypto cards via a custom `ElectricBorder` component  
-- 📱 Fully responsive design for desktop, tablet, and mobile  
-- 🎨 Modern styling with **TailwindCSS** and **shadcn/ui**  
-- ⚡ Fast and lightweight thanks to **Vite + React**  
+- Real-time NZD prices for Bitcoin, Ethereum, and Tether  
+- Live data fetched from the **[CoinGecko API](https://www.coingecko.com/)**  
+- Animated glowing borders around crypto cards via a custom `ElectricBorder` component  
+- Fully responsive design for desktop, tablet, and mobile  
+- Modern styling with **TailwindCSS** and **shadcn/ui**  
+- Fast and lightweight thanks to **Vite + React**  
 
 ---
 
-## 🔌 Data Source
+## Data Source
 
 CryptoSpark NZ does not include its own backend server.  
 Instead, it fetches live cryptocurrency market data directly from the **CoinGecko API** using a custom React hook (`useCryptoData.ts`).  
@@ -30,7 +30,7 @@ Future improvements could include adding a Node.js/Express backend and database 
 
 ---
 
-## 🎨 Animation Inspiration
+## Animation Inspiration
 
 The **Electric Border effect** was inspired by and adapted from a demo on **[ReactBits.dev](https://reactbits.dev/animations/electric-border)** — a site showcasing interactive React animation tutorials and code samples.  
 
@@ -38,7 +38,7 @@ The implementation was then extended and customized for this project to give the
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework:** [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)  
 - **Styling:** [TailwindCSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)  
@@ -49,7 +49,7 @@ The implementation was then extended and customized for this project to give the
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```plaintext
 src/
@@ -64,3 +64,30 @@ src/
 ├─ App.tsx                 # Root component
 ├─ main.tsx                # Entry point
 └─ index.css               # Global styles
+
+---
+### Installation
+
+1. Clone the repo:
+   ```bash
+   git clone git@github.com:Irina-Kostina/crypto-spark-nz.git
+   cd crypto-spark-nz
+  
+2. Install dependencies: 
+    ```bash
+    npm install
+
+3. Start the frontend:
+    ```bash
+    npm run dev
+---
+## Deployment (Vercel)
+
+This project is **deployed on [Vercel](https://vercel.com/)**  
+for fast, reliable hosting with automatic builds from the GitHub repository.
+
+🔗 **Live Demo:** [https://cryptospark-nz.vercel.app](https://cryptospark-nz.vercel.app)
+---
+## License
+
+This project is for educational and portfolio purposes.
